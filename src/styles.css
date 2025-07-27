@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+nav-ui {
+    height: 10%;
+}
+
+body-ui {
+    height: 90%;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    nav-ui {
+        height: auto;
+    }
+}

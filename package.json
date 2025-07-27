@@ -1,0 +1,36 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant page to practice Dom manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgatla/restaurant-page.git"
+  },
+  "keywords": [
+    "webpack",
+    "JS",
+    "DOM-manipulation"
+  ],
+  "author": "Dinesh Reddy Gatla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgatla/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/dgatla/restaurant-page#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "lit": "^3.3.1"
+  }
+}
